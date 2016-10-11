@@ -1,0 +1,84 @@
+.main {
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding: 10px;
+    background-color: white;
+}
+
+header {
+    padding: 5px;
+    width:95%;
+    position: fixed;
+    top: 0;
+    font-size: 16px;
+}
+
+.top {
+    width:95%;
+    position: fixed;
+    top:35px;
+}
+
+.tab-list {
+    width:95%;
+    width:100%;
+    position: fixed;
+    top: 75px;
+}
+
+.nav-tabs {
+    width:95%;
+    margin-bottom: 5px;
+}
+
+.tab-content {
+    width:95%;
+    font-size:12px;
+}
+
+.content-head {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-head li {
+    float:left;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content-body {
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    max-height: 400px;
+    overflow-x: scroll;
+}
+
+.content-body ul {
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+}
+
+.content-body .content-row li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#member {
+    width:100%;
+}
+
+#member th {
+    text-align: center;
+    font-size: 12px;
+}
+#member td {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 5px;
+}

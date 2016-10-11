@@ -1,0 +1,28 @@
+.panel-heading {
+    text-align: center;
+}
+
+.panel-heading span {
+    margin-left: 25px;
+}
+
+.detail-item {
+    width:45%;
+    text-align: center;
+}
+
+.handle-board {
+    width:100%;
+    margin:auto;
+}
+
+.handle-board div {
+    
+    margin-top: 10px;
+}
+
+.handle-board .btn {
+    width:25%;
+    margin:0;
+    float: none;
+}

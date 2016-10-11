@@ -1,0 +1,23 @@
+.page{
+    max-width: 1280px;
+    margin:auto;
+}
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list-table th {
+    text-align: center;
+}
+.menu ul li {
+    opacity:0.8;
+}
+
+.menu ul li :hover {
+    opacity: 1;
+}
+
+.menu ul .active {
+    background-color: #ddd;
+}
+

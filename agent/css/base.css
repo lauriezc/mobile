@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+}
+
+input {
+    text-align: center;
+}
+
+.main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.contain{
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.header-bar {
+    margin-bottom: 10px;
+    padding-bottom:3px;
+    border-bottom: 1px solid #337ab7;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+#btn-quit {
+    
+}
+
+#btn-option {
+    
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    padding-bottom: 115px;
+}
+
+
+footer {
+    width:100%;
+    height: 50px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+}
+
+#menu-bar {
+    height: 50px;
+    padding: 0;
+}
+
+#btn-menu {
+    z-index: 101
+}
+
+#menu-bar a {
+    width:100%;
+    height: 100%;
+    color: white;
+    text-decoration:none;
+}
+
+#search-bar .input-group-btn {
+    width:28px;
+}
+
+.slider-menu {
+    width:250px;
+    height: 100%;
+    position: fixed;
+    left: -250px;
+    z-index: 100;
+    text-align: center;
+    background-color: #d9edf7;/*#aeceea;*/
+    opacity: 0.8;
+}
+
+.slider-menu .nav {
+    bottom: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.slider-menu li {
+    border-top: 1px solid white;
+}
+
+.slider-menu a {
+    color:black;
+    opacity: 1;
+}
+
+.slider-menu .active {
+    
+}
+/*左侧菜单*/
+.menu-active {
+    left: 0px;
+}
+.main-disable {
+    left: 250px;
+    opacity: 0.8;
+}
+
+/*form.html*/
+.form-page .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}

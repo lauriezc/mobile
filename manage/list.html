@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="../logo.png" rel="shortcut icon" type="image/x-icon" />
+        <link type="text/css" rel="stylesheet" href="../plugins/bootstrap-3.3.5/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/base.css"/>
+    </head>
+    <body>
+        <div class="page">
+            <!--start header-->
+            <header class="header panel panel-default">
+                <div class="panel-body">
+                    <div class="logo-pane pull-left">
+                        <img src=# class="logo" />
+                    </div>
+                    <div class="handler pull-right">
+                        <a href="#" class="btn btn-info">修改密码</a>
+                        <a href="#" class="btn btn-warning"><i class="fa fa-sign-out" aria-hidden="true"></i>退出系统</a>
+                    </div>
+                </div>
+            </header>
+            <!-- end header-->
+            <!-- start menu -->
+            <div class="menu col-sm-2">
+                <ul class="nav">
+                    <li class="active"><a href="#">菜单1</a></li>
+                    <li><a href="">菜单2</a></li>
+                </ul>
+            </div>
+            <!-- end menu-->
+            <!-- start content -->
+            <div class="content-container col-sm-10">
+                <ol class="breadcrumb">
+                    <li><a href="~/">首页</a></li>
+                    <li class="active">Data</li>
+                </ol>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        标题
+                    </div>
+                    <div class="panel-body">
+                        <div class="content">
+                            <div class="row">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input class="form-control" type="text" name="txt_key" placeholder="按代理商账号查询"/>
+                                            <span class="input-group-btn">
+                                                <button type="submit" class="btn btn-primary">查询</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <div class="btn-group">
+                                    <button class="btn btn-default" type="button"  data-toggle="modal" data-target="#account_form">创建账号</button>
+                                    <button class="btn btn-default" type="button">冻结账号</button>
+                                    <button class="btn btn-default" type="button"  data-toggle="modal" data-target="#change_pwd_form">修改密码</button>
+                                    <button class="btn btn-default" type="button"  data-toggle="modal" data-target="#add_card_form">补货</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <table class="table table-boarded table-hover list-table">
+                                    <thead>
+                                        <tr>
+                                            <th rowspan="2">&nbsp;</th>
+                                            <th rowspan="2">序号</th>
+                                            <th rowspan="2">代理商</th>
+                                            <th colspan="4">库存</th>
+                                            <th rowspan="2">备注</th>
+                                            <th rowspan="2">联系人</th>
+                                            <th rowspan="2">联系方式</th>
+                                        </tr>
+                                        <tr>
+                                            <th>10万</th>
+                                            <th>20万</th>
+                                            <th>50万</th>
+                                            <th>100万</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><div class="check"><label><input type="radio" name="chk" value="1"/></label></div></td>
+                                            <td>0</td>
+                                            <td>091212</td>
+                                            <td>100</td>
+                                            <td>200</td>
+                                            <td>300</td>
+                                            <td>400</td>
+                                            <td>ABC</td>
+                                            <td>小张1  </td>
+                                            <td>15902061112</td>
+                                        </tr>
+                                        <tr>
+                                            <td><div class="check"><label><input type="radio" name="chk" value="1"/></label></div></td>
+                                            <td>1</td>
+                                            <td>091212</td>
+                                            <td>100</td>
+                                            <td>200</td>
+                                            <td>300</td>
+                                            <td>400</td>
+                                            <td>ABC</td>
+                                            <td>小张  </td>
+                                            <td>15902061112</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+
+                                    </tfoot>
+                                </table>
+                                <nav>
+                                    <ul class="pagination">
+                                        <li>
+                                            <a href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li>
+                                            <a href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end content -->
+            <footer>
+            </footer>
+        </div>
+
+        <!--模态框-->
+        <div class="modal fade" id="account_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <p class="form-control-static">email@example.com</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="change_pwd_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="add_card_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end 模态框-->
+
+
+    </body>
+</html>
+<script type="text/javascript" src="../plugins//jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="../plugins/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script>
+//数据行点击选中
+$('.list-table tbody tr').click(function(){
+    $('.list-table tbody tr td').each(function(){
+        var chk = $(this).find('input');
+        $(chk).parent().removeClass('checked');
+        $(chk).prop('checked',false);
+    });
+    var input = $(this).find('td input');
+    $(input).prop('checked',true);
+    $(input).parent().addClass('checked');
+});
+</script>

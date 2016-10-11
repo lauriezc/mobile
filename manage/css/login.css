@@ -1,0 +1,32 @@
+.verify-code {
+    /*border-radius:3px;
+    margin-left:5px;
+    width:305px;*/
+}
+
+.container {
+    width: 400px;
+}
+
+form {
+    padding: 0px 10px 0px 10px;
+}
+
+.login-panel {
+    margin-top:50%;
+}
+
+.code-image {
+    width:180px;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+.login-submit {
+    margin-right: 30px;
+}
+
+.checkbox {
+    width:100px;
+    float: right;
+}

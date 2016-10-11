@@ -1,0 +1,233 @@
+.load_more {
+    width:100%;
+}
+
+.panel-title,
+.detail-item,
+.panel-heading{
+    text-align: center
+}
+
+
+#form-freeze .history .btn,
+#form-freeze .history .btn,
+#form-stock .form span,
+.pane,
+#form-stock .form .btn
+{
+    display: inline-block;
+}
+
+.panel-title>a ,
+#form-stock .btn-group .btn,
+.handle-board div
+{
+    display: block;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+#accordion {
+    margin-bottom: 10px;
+}
+
+#accordion .fa {
+    float: right;
+    width:5px;
+}
+
+
+.panel-heading label {
+    margin-right: 5px;
+}
+
+.detail-item {
+    width:45%;
+}
+
+.handle-board {
+    width:100%;
+}
+
+.handle-board div {
+    margin-top: 10px;
+}
+
+.handle-board .btn,
+#form-stock .btn-group .btn {
+    width:25%;
+}
+
+/*模态框*/
+
+/*配货*/
+#form-stock .btn-group {
+    width:100%;
+    margin-left:1px;
+}
+
+#form-stock .form span {
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-left: 5%;
+    margin-right: 40%;
+}
+
+#form-stock .form .btn {
+    width:34px;
+    height: 34px;
+}
+
+#txt_number {
+    padding: 0;
+    padding-top: 5px;
+}
+
+.pane {
+    position: fixed;
+    right: 5%;
+}
+
+/*冻结账号*/
+
+#form-freeze .history label {
+    margin-right: 10px;
+}
+#form-freeze .history .btn {
+    position: fixed;
+    right: 10%;
+}
+
+#form-freeze textarea {
+    width: 100%;
+}
+.label-markup {
+    margin-left: 3px;
+}
+
+/*推广详情*/
+#promoter-info .modal-body {
+    min-height: 300px;
+}
+#promoter-info .nav-tabs .close {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+#promoter-info .tab-content {
+    margin-top: 5px;
+}
+
+#promoter-info td,
+#promoter-info th {
+    text-align: center;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+
+
+#member_tab .c1 {width:10%}
+#member_tab .c2 {width:20%}
+#member_tab .c3 {width:25%}
+#member_tab .c4 {width:25%}
+#member_tab .c5 {width:15%}
+
+#member_tab .member-list {
+    width:100%;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+#member_tab .member-header,
+#member_tab ul {
+    margin:0;
+    padding: 0;
+}
+#member_tab .member-header li,
+#member_tab .member-body li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+#member_tab .member-body>li {
+    width:100%;
+}
+
+#detail_tab {
+    width:100%;
+    height: 100%;
+}
+
+#detail_tab ul {
+    margin: 0;
+    padding: 0;
+}
+
+#detail_tab .search-form {
+    height: 50px;
+}
+
+#detail_tab li {
+    list-style: none;
+}
+
+#detail_tab .well {
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+#detail_tab .search-form {
+    height:34px;
+}
+
+#detail_tab .search-form .form-group {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.coin-in {
+    color:darkseagreen
+}
+.coin-out {
+    color: orangered;
+}
+
+.coin-detail-container {
+    width:100%;
+    max-height: 200px;
+    overflow: scroll;
+    margin:0;
+    padding: 0;
+}
+
+#detail_tab .detail-header,
+#detail_tab .detail-body {
+    margin:0;
+    padding: 0;
+}
+
+#detail_tab .detail-body>li {
+    width:100%;
+}
+
+#detail_tab .detail-header li ,
+#detail_tab .detail-body li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+#detail_tab .c1 {width:20%}
+#detail_tab .c2 {width:20%}
+#detail_tab .c3 {width:15%}
+#detail_tab .c4 {width:18%}
+#detail_tab .c5 {width:20%}
+
+/*模态框*/
